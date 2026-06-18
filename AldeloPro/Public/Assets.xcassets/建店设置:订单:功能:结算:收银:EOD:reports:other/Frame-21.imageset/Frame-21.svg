@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame">
+<path id="Vector" d="M2.66675 8.66675H29.3334V24.6667H2.66675V8.66675Z" stroke="#262626" stroke-width="2" stroke-linejoin="round"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M2.66675 14.0001C5.61227 14.0001 8.00008 11.6123 8.00008 8.66675H2.66675V14.0001Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M2.66675 19.3333C5.61227 19.3333 8.00008 21.7211 8.00008 24.6666H2.66675V19.3333Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M29.3333 19.3333V24.6666H24C24 21.7211 26.3878 19.3333 29.3333 19.3333Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" fill-rule="evenodd" clip-rule="evenodd" d="M29.3333 14.0001C26.3878 14.0001 24 11.6123 24 8.66675H29.3333V14.0001Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M16.0001 20.6667C17.841 20.6667 19.3334 18.8759 19.3334 16.6667C19.3334 14.4576 17.841 12.6667 16.0001 12.6667C14.1591 12.6667 12.6667 14.4576 12.6667 16.6667C12.6667 18.8759 14.1591 20.6667 16.0001 20.6667Z" stroke="#262626" stroke-width="2" stroke-linejoin="round"/>
+</g>
+</svg>

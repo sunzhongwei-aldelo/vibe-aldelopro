@@ -1,0 +1,9 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame">
+<path id="Vector" d="M6 6.66675V29.3334H26V6.66675H6Z" stroke="#262626" stroke-width="2" stroke-linejoin="round"/>
+<path id="Vector_2" d="M13.3333 13.3333V21.9999" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M18.6667 13.3333V21.9999" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M2.66675 6.66675H29.3334" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M10.6667 6.66675L12.8594 2.66675H19.1848L21.3334 6.66675H10.6667Z" stroke="#262626" stroke-width="2" stroke-linejoin="round"/>
+</g>
+</svg>

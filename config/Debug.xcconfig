@@ -1,0 +1,19 @@
+// ====================================================================
+// AldeloPro - Debug 编译设置
+// ====================================================================
+
+// 1. 基础 App 信息
+PRODUCT_BUNDLE_IDENTIFIER = com.aldelo.ios.aldelopro
+PRODUCT_NAME = AldeloPro
+
+// 2. 绑定你现有的真实 Info.plist 路径
+INFOPLIST_FILE = AldeloPro/Info.plist
+
+// 3. 证书与签名设置 (完全对齐你的截图)
+DEVELOPMENT_TEAM = U385YHRS6M
+CODE_SIGN_STYLE = Manual
+PROVISIONING_PROFILE_SPECIFIER = AldeloPro_2026
+CODE_SIGN_IDENTITY = Apple Development: tom tom (23HB89JU22)
+
+// 4. 新版 Xcode 兼容开关 (关闭 XcodeGen 自带合成，完全走上面的物理 Info.plist)
+GENERATE_INFOPLIST_FILE = NO

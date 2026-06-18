@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 90692">
+<g id="Group 89291">
+<g id="Union">
+<mask id="path-1-inside-1_4433_40900" fill="white">
+<path d="M30 26.5C30 27.6046 29.1046 28.5 28 28.5H4C2.89543 28.5 2 27.6046 2 26.5V20.5L4 10.5V5.5C4 4.39543 4.89543 3.5 6 3.5H26C27.1046 3.5 28 4.39543 28 5.5V10.5L30 20.5V26.5Z"/>
+</mask>
+<path d="M4 28.5L4 30.5H4V28.5ZM2 20.5L0.0388386 20.1078L0 20.302V20.5H2ZM4 10.5L5.96116 10.8922L6 10.698V10.5H4ZM6 3.5V1.5V1.5V3.5ZM28 5.5H30H28ZM28 10.5H26V10.698L26.0388 10.8922L28 10.5ZM30 20.5H32V20.302L31.9612 20.1078L30 20.5ZM30 26.5H28V28.5V30.5C30.2091 30.5 32 28.7091 32 26.5H30ZM28 28.5V26.5H4V28.5V30.5H28V28.5ZM4 28.5L4 26.5H4H2H0C0 28.7091 1.79086 30.5 4 30.5L4 28.5ZM2 26.5H4V20.5H2H0V26.5H2ZM2 20.5L3.96116 20.8922L5.96116 10.8922L4 10.5L2.03884 10.1078L0.0388386 20.1078L2 20.5ZM4 10.5H6V5.5H4H2V10.5H4ZM4 5.5H6V5.5V3.5V1.5C3.79086 1.5 2 3.29086 2 5.5H4ZM6 3.5V5.5H26V3.5V1.5H6V3.5ZM26 3.5V5.5V5.5H28H30C30 3.29086 28.2091 1.5 26 1.5V3.5ZM28 5.5H26V10.5H28H30V5.5H28ZM28 10.5L26.0388 10.8922L28.0388 20.8922L30 20.5L31.9612 20.1078L29.9612 10.1078L28 10.5ZM30 20.5H28V26.5H30H32V20.5H30Z" fill="#262626" mask="url(#path-1-inside-1_4433_40900)"/>
+</g>
+<path id="Vector 161" d="M6 9.5H26" stroke="#262626" stroke-width="2"/>
+<path id="Vector 162" d="M4 20.5L29 20.5" stroke="#262626" stroke-width="2"/>
+<path id="Vector 166" d="M16.7 13L15.5 13" stroke="#262626" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector 167" d="M22.8999 13L21.6999 13" stroke="#262626" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector 166_2" d="M10.5 13L9.3 13" stroke="#262626" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector 166_3" d="M16.7 17L15.5 17" stroke="#262626" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector 167_2" d="M22.8999 17L21.6999 17" stroke="#262626" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector 166_4" d="M10.5 17L9.3 17" stroke="#262626" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector 164" d="M16 5.5V9.5" stroke="#262626" stroke-width="2"/>
+<path id="Vector 165" d="M17 23.8999L15 23.8999" stroke="#262626" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame">
+<path id="Vector" d="M2 13.125H52V43.125H2V13.125Z" stroke="#262626" stroke-width="3.5" stroke-linejoin="round"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M2 22.125C7.52285 22.125 12 18.0956 12 13.125H2V22.125Z" stroke="#262626" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M2 33.125C7.52285 33.125 12 37.6021 12 43.125H2V33.125Z" stroke="#262626" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M52 33.125V43.125H42C42 37.6021 46.4771 33.125 52 33.125Z" stroke="#262626" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" fill-rule="evenodd" clip-rule="evenodd" d="M52 22.125C46.4771 22.125 42 18.0956 42 13.125H52V22.125Z" stroke="#262626" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M27 35.125C30.3137 35.125 33 31.7671 33 27.625C33 23.4829 30.3137 20.125 27 20.125C23.6863 20.125 21 23.4829 21 27.625C21 31.7671 23.6863 35.125 27 35.125Z" stroke="#262626" stroke-width="3.5" stroke-linejoin="round"/>
+</g>
+</svg>

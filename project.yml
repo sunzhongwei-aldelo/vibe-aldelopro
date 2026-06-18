@@ -1,0 +1,74 @@
+name: AldeloPro
+options:
+  bundleIdPrefix: com.aldelo.ios
+
+targets:
+  # ==========================================
+  # 主程序 Target
+  # ==========================================
+  AldeloPro:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    
+    # 支持 iPhone 和 iPad
+    deploymentTargets:
+      iOS: "18.0"
+    settings:
+      TARGETED_DEVICE_FAMILY: "1,2" # 1 代表 iPhone, 2 代表 iPad
+      ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: YES
+    sources:
+      - path: AldeloPro
+        excludes:
+          - "**/Info.plist" # 排除掉，防止被当成普通资源重复打包
+    # 🟢 核心追加：精准把上一层根目录的 autopull.sh 打包挂载进项目导航栏
+      # buildPhase: none 极其重要！告诉 Xcode 它只是个文本看盘工具，千万别把它当代码去编译
+      - path: "autopull.sh"
+        buildPhase: none
+
+# 🟢 终极修复 1：更新搬运后的正确内部路径
+    configFiles:
+      Debug: config/Debug.xcconfig
+      Release: config/Release.xcconfig
+    
+  # 单元测试 Target
+  # ==========================================
+  AldeloProTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: AldeloProTests
+    dependencies:
+      - target: AldeloPro
+
+  # ==========================================
+  # UI 测试 Target
+  # ==========================================
+  AldeloProUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: AldeloProUITests
+    dependencies:
+      - target: AldeloPro
+# 这段配置会直接被锁定并共享，让 Xcode 永远不会丢失或隐藏 Scheme
+schemes:
+  AldeloPro:
+    build:
+      targets:
+        AldeloPro: [run, test, profile, analyze]
+        AldeloProTests: [test]
+        AldeloProUITests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - AldeloProTests
+        - AldeloProUITests
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
